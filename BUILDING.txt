@@ -1,9 +1,9 @@
-To reproduce the build in the attached container defined by the attached
-Dockerfile run:
+To reproduce the build in a container defined by the attached Dockerfile, run:
 
 ```
-sudo docker build .
+./build.sh
 ```
 
-At the end of the process the SHA256 checksum of shimx64.efi that was just
-built will be printed.
+This will print the SHA256 checksum of the shimx64.efi binary that was just
+built, as well as copy the file to the current directory and verify its
+checksum against the attached shimx64.efi.sha256sum at the end of the process.
