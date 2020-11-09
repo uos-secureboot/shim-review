@@ -49,12 +49,12 @@ Who is the secondary contact for security updates, etc.
 -------------------------------------------------------------------------------
 What upstream shim tag is this starting from:
 -------------------------------------------------------------------------------
-https://github.com/rhboot/shim/releases/tag/15
+Upstream commit a4a1fbe7.
 
 -------------------------------------------------------------------------------
 URL for a repo that contains the exact code which was built to get this binary:
 -------------------------------------------------------------------------------
-https://github.com/nohappiness/shim/releases/tag/15-1
+https://github.com/weiguang123/shim/, branch master, commit hash f60ba438.
 
 -------------------------------------------------------------------------------
 What patches are being applied and why:
@@ -74,7 +74,7 @@ After installation of Deepin V20 , it is recommended to update the whole system 
 -------------------------------------------------------------------------------
 Which files in this repo are the logs for your build?   This should include logs for creating the buildroots, applying patches, doing the build, creating the archives, etc.
 -------------------------------------------------------------------------------
-logs.txt
+https://github.com/weiguang123/shim-review/blob/deepin-shim/logs.txt
 
 -------------------------------------------------------------------------------
 Add any additional information you think we may need to validate this shim
