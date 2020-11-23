@@ -5,9 +5,9 @@ RUN echo "deb-src http://deb.debian.org/debian buster main contrib non-free" >> 
 RUN apt-get update -y
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends build-essential devscripts git
 RUN apt-get build-dep -y shim
-RUN git clone https://github.com/weiguang123/shim.git shim-15+dev76.f60ba43-13
+RUN git clone https://github.com/deepin-secureboot/shim.git shim-15+dev76.f60ba43-13
 WORKDIR /shim-15+dev76.f60ba43-13
-RUN git config user.email "lichenggang@uniontech.com"
+RUN git config user.email "secureboot@deepin.com"
 RUN git merge --allow-unrelated-histories -m "Import the packaging bits into master" origin/debian-master
 RUN echo "1.0" > debian/source/format
 RUN echo "--compression=gzip" > debian/source/options
