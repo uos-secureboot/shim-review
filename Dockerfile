@@ -1,5 +1,5 @@
 FROM debian:buster
-ADD --chown=root:root deepin.origins /etc/dpkg/origins/deepin
+ADD --chown=root:root uos.origins /etc/dpkg/origins/uos
 RUN echo "deb http://deb.debian.org/debian buster main contrib non-free" > /etc/apt/sources.list
 RUN echo "deb-src http://deb.debian.org/debian buster main contrib non-free" >> /etc/apt/sources.list
 RUN apt-get update -y
