@@ -1,7 +1,7 @@
 FROM debian:buster
 ADD --chown=root:root uos.origins /etc/dpkg/origins/uos
-RUN echo "deb http://mirrors.163.com/debian buster main contrib non-free" > /etc/apt/sources.list
-RUN echo "deb-src http://mirrors.163.com/debian buster main contrib non-free" >> /etc/apt/sources.list
+RUN echo "deb http://deb.debian.org/debian buster main contrib non-free" > /etc/apt/sources.list
+RUN echo "deb-src http://deb.debian.org/debian buster main contrib non-free" >> /etc/apt/sources.list
 RUN apt-get update -y
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends build-essential devscripts git
 RUN apt-get build-dep -y shim
