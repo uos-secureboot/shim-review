@@ -34,16 +34,16 @@ It is an amazing distribution, and for compatible reason, we here submit our sig
 -------------------------------------------------------------------------------
 Who is the primary contact for security updates, etc.
 -------------------------------------------------------------------------------
-- Name: Zhang Shuang
-- Position: Senior Director
-- Email address: zhangshuang@uniontech.com
+- Name: Yan Bowen
+- Position: Elder Developer
+- Email address: yanbowen@uniontech.com
 
 -------------------------------------------------------------------------------
 Who is the secondary contact for security updates, etc.
 -------------------------------------------------------------------------------
-- Name: Zhang Yueqian
-- Position: Senior Developer
-- Email address: zhangyueqian@uniontech.com
+- Name: Li Chenggang
+- Position: Developer
+- Email address: lichenggang@uniontech.com
 
 -------------------------------------------------------------------------------
 What upstream shim tag is this starting from:
