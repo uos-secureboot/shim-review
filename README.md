@@ -36,14 +36,14 @@ Who is the primary contact for security updates, etc.
 -------------------------------------------------------------------------------
 - Name: Zhang Shuang
 - Position: Senior Director
-- Email address: zhangshuang@deepin.com
+- Email address: zhangshuang@uniontech.com
 
 -------------------------------------------------------------------------------
 Who is the secondary contact for security updates, etc.
 -------------------------------------------------------------------------------
 - Name: Zhang Yueqian
 - Position: Senior Developer
-- Email address: zhangyueqian@deepin.com
+- Email address: zhangyueqian@uniontech.com
 
 -------------------------------------------------------------------------------
 What upstream shim tag is this starting from:
