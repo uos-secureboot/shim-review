@@ -5,10 +5,10 @@ rm build.log
 exec > >(tee -i build.log)
 exec 2>&1
 
-CERT=MiraySoftwareAG2020.DER.cer
-SBAT=sbat.miray.csv
-OUTNAME=shim_mirayx64
-SHIM_DBX=shim_miray.dbx
+CERT=deepin-uefi-ca.der
+SBAT=sbat.deepin.csv
+OUTNAME=shimx64
+SHIM_DBX=shim.dbx
 
 rm -rf shim
 rm BOOTX64.EFI
@@ -19,7 +19,7 @@ rm $OUTNAME.cksum
 
 
 # Get shim from a tar file
-RELEASEPATH="https://github.com/rhboot/shim/releases/download/15.4/shim-15.4.tar.bz2"
+RELEASEPATH="https://github.com.cnpmjs.org/rhboot/shim/releases/download/15.4/shim-15.4.tar.bz2"
 curl -L $RELEASEPATH | tar -xj || exit 1
 #tar -xjf shim.tar.bz2
 mv shim-15.4 shim
@@ -27,9 +27,7 @@ mv shim-15.4 shim
 
 # Get shim from a repository
 BRANCH=shim-15.4
-#BRANCH=miray-15.4
-REPOSITORY="https://github.com/rhboot/shim.git"
-#REPOSITORY="https://github.com/MiraySoftware/shim.git"
+REPOSITORY="https://github.com.cnpmjs.org/rhboot/shim.git"
 #git clone --recursive -b $BRANCH $REPOSITORY shim
 
 
@@ -39,7 +37,7 @@ cp $SHIM_DBX shim/
 
 cd shim
 export VENDOR_CERT_FILE=$CERT
-export VENDOR_DBX_FILE=$SHIM_DBX
+#export VENDOR_DBX_FILE=$SHIM_DBX
 export DEFAULT_LOADER="\\\\\\\\grub.efi"
 make
 
