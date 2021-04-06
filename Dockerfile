@@ -5,7 +5,7 @@ RUN apt update -y && \
 
 RUN mkdir /build
 COPY . orig
-COPY build_shim deepin-uefi-ca.der sbat.deepin.csv  /build/
+COPY build_shim UOS-UEFI-RSA.cer sbat.deepin.csv  /build/
     
 WORKDIR /build
 

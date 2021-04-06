@@ -18,43 +18,42 @@ Here's the template:
 -------------------------------------------------------------------------------
 What organization or people are asking to have this signed:
 -------------------------------------------------------------------------------
-Wuhan Deepin Technology Co., Ltd.
+Uniontech Technology Co., Ltd.
 
 -------------------------------------------------------------------------------
 What product or service is this for:
 -------------------------------------------------------------------------------
-Deepin V20.
+UOS.
 
 -------------------------------------------------------------------------------
 What's the justification that this really does need to be signed for the whole world to be able to boot it:
 -------------------------------------------------------------------------------
-Deepin is yet another linux distribution based on Debian GNU/Linux. It has been actively maintained since 2011.
-Deepin has kept in the top 20 on distrowatch for last few years.
+UOS is yet another linux distribution based on Debian GNU/Linux. It has been actively maintained since 2019.
 It is an amazing distribution, and for compatible reason, we here submit our siging request for shim.
 
 -------------------------------------------------------------------------------
 Who is the primary contact for security updates, etc.
 -------------------------------------------------------------------------------
-- Name: Zhang Shuang
-- Position: Senior Director
-- Email address: zhangshuang@deepin.com
+- Name: Yan Bowen
+- Position: Elder Developer
+- Email address: yanbowen@uniontech.com
 
 -------------------------------------------------------------------------------
 Who is the secondary contact for security updates, etc.
 -------------------------------------------------------------------------------
-- Name: Li chenggang
+- Name: Li Chenggang
 - Position: Developer
-- Email address: lichenggang@deepin.org
+- Email address: lichenggang@uniontech.com
 
 -------------------------------------------------------------------------------
 What upstream shim tag is this starting from:
 -------------------------------------------------------------------------------
-Upstream 15.4.
+Upstream commit a4a1fbe7.
 
 -------------------------------------------------------------------------------
 URL for a repo that contains the exact code which was built to get this binary:
 -------------------------------------------------------------------------------
-https://github.com/deepin-secureboot/shim, branch master, commit hash f60ba438.
+https://github.com/uos-secureboot/shim, branch master, commit hash f60ba438.
 
 -------------------------------------------------------------------------------
 What patches are being applied and why:
@@ -64,17 +63,17 @@ N/A
 -------------------------------------------------------------------------------
 What OS and toolchain must we use to reproduce this build?  Include where to find it, etc.  We're going to try to reproduce your build as close as possible to verify that it's really a build of the source tree you tell us it is, so these need to be fairly thorough. At the very least include the specific versions of gcc, binutils, and gnu-efi which were used, and where to find those binaries.
 -------------------------------------------------------------------------------
-Deepin V20 : http://cdimage.deepin.com/releases/20/deepin-desktop-community-1002-amd64.iso
+UOS : https://www.uniontech.com/next/product/desktop-system?edition=Professional
 GCC: 8.3.0
 Binutils: 2.31.1
 GNU-Efi: 3.0.9
-All above packages can install by command: `sudo apt install build-essential gnu-efi` in Deepin V20  with an internet connection.
-After installation of Deepin V20 , it is recommended to update the whole system to get up-to-date packages and functions by executing command: `sudo apt update && sudo apt upgrade`.
+All above packages can install by command: `sudo apt install build-essential gnu-efi` in UOS  with an internet connection.
+After installation of UOS, it is recommended to update the whole system to get up-to-date packages and functions by executing command: `sudo apt update && sudo apt upgrade`.
 
 -------------------------------------------------------------------------------
 Which files in this repo are the logs for your build?   This should include logs for creating the buildroots, applying patches, doing the build, creating the archives, etc.
 -------------------------------------------------------------------------------
-https://github.com/deepin-secureboot/shim-review/blob/deepin-shim/logs.txt
+https://github.com/uos-secureboot/shim-review/blob/uos-shim/logs.txt
 
 -------------------------------------------------------------------------------
 Add any additional information you think we may need to validate this shim

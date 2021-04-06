@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-sudo docker build -t deepin-shim-review .
+sudo docker build -t uos-shim-review .
 
 id=$(sudo docker create deepin-shim-review)
 sudo docker cp $id:/build/shimx64.efi .

@@ -5,7 +5,7 @@ rm build.log
 exec > >(tee -i build.log)
 exec 2>&1
 
-CERT=deepin-uefi-ca.der
+CERT=UOS-UEFI-RSA.cer
 SBAT=sbat.deepin.csv
 OUTNAME=shimx64
 SHIM_DBX=shim.dbx
@@ -19,7 +19,7 @@ rm $OUTNAME.cksum
 
 
 # Get shim from a tar file
-RELEASEPATH="https://github.com/rhboot/shim/releases/download/15.4/shim-15.4.tar.bz2"
+RELEASEPATH="https://github.com.cnpmjs.org/rhboot/shim/releases/download/15.4/shim-15.4.tar.bz2"
 curl -L $RELEASEPATH | tar -xj || exit 1
 #tar -xjf shim.tar.bz2
 mv shim-15.4 shim
