@@ -6,7 +6,7 @@ exec > >(tee -i build.log)
 exec 2>&1
 
 CERT=UOS-UEFI-RSA.cer
-SBAT=sbat.deepin.csv
+SBAT=sbat.uos.csv
 OUTNAME=shimx64
 SHIM_DBX=shim.dbx
 

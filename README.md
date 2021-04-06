@@ -53,7 +53,7 @@ Upstream commit a4a1fbe7.
 -------------------------------------------------------------------------------
 URL for a repo that contains the exact code which was built to get this binary:
 -------------------------------------------------------------------------------
-https://github.com/uos-secureboot/shim, branch master, commit hash f60ba438.
+https://github.com/rhboot/shim/releases/download/15.4/shim-15.4.tar.bz2
 
 -------------------------------------------------------------------------------
 What patches are being applied and why:
@@ -73,7 +73,7 @@ After installation of UOS, it is recommended to update the whole system to get u
 -------------------------------------------------------------------------------
 Which files in this repo are the logs for your build?   This should include logs for creating the buildroots, applying patches, doing the build, creating the archives, etc.
 -------------------------------------------------------------------------------
-https://github.com/uos-secureboot/shim-review/blob/uos-shim/logs.txt
+https://github.com/uos-secureboot/shim-review/blob/uos-shim-15.4/logs.txt
 
 -------------------------------------------------------------------------------
 Add any additional information you think we may need to validate this shim
