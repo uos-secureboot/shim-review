@@ -240,7 +240,7 @@ Is "ACPI: configfs: Disallow loading ACPI tables when locked down"
 
 upstream commit 75b0cea7bf307f362057cc778efe89af4c615354 applied ?
 -------------------------------------------------------------------------------
-Yes, we currently use linux lts kernel 5.10:
+Yes, we currently use linux lts kernel 4.19:
 
 -------------------------------------------------------------------------------
 If you use vendor_db functionality of providing multiple certificates and/or
