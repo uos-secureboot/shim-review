@@ -185,7 +185,12 @@ We use upstream https://github.com/rhboot/shim/tree/shim-15.4
 -------------------------------------------------------------------------------
 What patches are being applied and why:
 -------------------------------------------------------------------------------
-No additional patches
+Bug and security fixes.
+Changelog (since version 15-4).
+Don-t-call-QueryVariableInfo-on-EFI-1.10-machines.patch
+fix-broken-ia32-reloc.patch
+fix-import_one_mok_state.patch
+MOK-BootServicesData.patch
 
 -------------------------------------------------------------------------------
 If bootloader, shim loading is, GRUB2: is CVE-2020-14372, CVE-2020-25632,
